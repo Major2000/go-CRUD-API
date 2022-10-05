@@ -1,10 +1,10 @@
 package main
 
-type movie struct {
+type Movie struct {
 	ID       string    `json:"id"`
 	Isbn     string    `json:"isbn"`
 	Title    string    `json:"title"`
-	Director *Director `json:"diretor"`
+	Director *Director `json:"director"`
 }
 
 type Director struct {
@@ -12,6 +12,9 @@ type Director struct {
 	Lastname  string `json:"lastname"`
 }
 
-func main() {
+var movies []Movie
 
+func main() {
+	r := mux.NewRouter()
+	r.HandleFunc()
 }
