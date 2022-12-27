@@ -67,4 +67,4 @@ $ curl -X DELETE http://localhost:8000/movies/1
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Major2000/go-CRUD-API/blob/main/LICENSE) file for details.
